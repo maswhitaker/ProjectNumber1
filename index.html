@@ -6,60 +6,153 @@
   </head>
   <style>
 
-    #heading{
-      font-family: Arial;
-      font-size: 50px;
-      color: gray;
-      position: relatve;
-
-    }
-
     #left-header{
       float:left;
-      font-size:5px;
-      color:black;
+      font-size:20px;
+      color:white;
       margin: 0 0 0 40px;
+    }
+    #right-header{
+      float:right;
+      font-size: 20px;
+      color: white;
+      margin: 0 40px 0 0;
     }
 
     #top-image{
-      height: 300px;
-      width: 700px;
+      height: 500px;
+      width: 1200px;
       margin:0 10px 0 10px;
-      background-image: url(http://cl.ly/image/2B0Z14150s1W/Image%202014-06-03%20at%201.33.53%20PM.png);
+      background-image: url("images/beautiful.jpg");
+      background-size: cover;
+    }
+    #heading{
+      font-family: Light 300;
+      font-size: 50px;
+      color: white;
+      margin: 0 auto;
+      width: 400px;
+      padding: 200px;
+
     }
 
-    .dolphins{
+    #popular{
+      font-family: Georgia;
+      font-size: 40px;
+      color: darkblue;
+    }
+
+    #hector {
       display: inline-block;
-      border:solid black 2px;
+      height: 200px;
+      width: 25%;
+      margin: 0;
+      float: left;
+      background-size: cover;
+      background-image: url("images/dolphin-flying.jpg");
+    }
+    #black{
+      display: inline-block;
+      height: 200px;
+      width: 25%;
+      margin: 0;
+      float: left;
+      background-size: cover;
+      background-image: url("images/dolphin smiling.jpg");
+    }
+    #commersons{
+      display: inline-block;
+      height: 200px;
+      width: 25%;
+      margin: 0;
+      float: left;
+      background-size: cover;
+      background-image: url("images/dolphins.jpg");
+    }
+    #heaviside{
+      display: inline-block;
+      height: 200px;
+      width: 25%;
+      margin: 0;
+      background-size: cover;
+      float: left;
+      background-image: url("images/rainbow.jpg");
+    }
+    #footer{
+      position: fixed;
+      bottom: 0;
+      width: 1300px;
+      height: 40px;
+      background-color: lightblue;
+    }
+    #IYA{
+      color: black;
+      font-size: 10px;
+      font-family: Georgia;
+    }
+    #copy{
+      margin: 0 auto;
+      font-family: Times;
+      font-size: 15px;
+    }
+    #middle{
+      width: 50%;
+      margin-left: 100px;
+    }
+    #quote{
+      font-size: 50px;
+      font-family: Arial;
+      color: darkblue;
+    }
+    #ref{
+      font-size: 10px;
+      font-family: Impact;
+      color: darkblue;
+    }
+    .love{
+      font-size: 50px;
+    }
+    .loves{
+      font-size: 10px;
+    }
+    .bottom{
+      color: white;
+      position: relative;
+      bottom: -120px;
+      font-family:Impact;
+      font-size:30px;
+
     }
 
   </style>
   <body>
     <div id="top-image">
       <p id="left-header">Surf & Paddle Co. Blog</p>
+      <p id="right-header">About  Search</p>
         <br>
-      <h1 id="heading">Surf & Paddle Co.</h1>
-        <p>An Iron Yard Academy Project</p>
+      <h1 id="heading"><center>Surf & Paddle Co.<br> <p id="IYA">AN IRON YARD ACADEMY PROJECT<p></center</h1>
     </div>
-      <h2>DO YOU LOVE DOLPHINS?</h2>
-      <h3><span>Mason Whitaker</span> created this on June 3, 2014.</h3>
-      <p>Dolphins are the coolest animals in the entire ocean.
-         If you believe that whales are the coolest animals in the ocean,
-         well then let me be the first to tell you. You're Wrong. There are 40
-         species of dolphins in the entire ocean. And every single species is
-         full of awesome.
+    <div id="middle">
+      <h2 class="love">DO YOU LOVE DOLPHINS?</h2>
+      <h3 class="loves"><span style="color: blue">Mason Whitaker</span> created this on June 3, 2014.</h3>
+      <p>Dolphins are the coolest animals in the entire ocean. If you believe
+        that whales are the coolest animals in the ocean, well then let me be
+        the first to tell you. You're Wrong. There are 40 species of dolphins
+        in the entire ocean. And every single species is full of awesome.
       </p>
-      <p>Most popular dolphins</p>
-    <div>
-      <p class="dolphins">Hector's dolphin</p>
-      <p class="dolphins">Black dolphin</p>
-      <p class="dolphins">Commerson's dolphin</p>
-      <p class="dolphins">Heaviside dolpin</p>
-        <br>
-        <img src="http://cl.ly/image/2Q1m2N2C3h30/Image%202014-06-03%20at%201.19.43%20PM.png"class="dolphins" height="200"width="150">
-        <img src="http://cl.ly/image/0v2h26371L3K/Image%202014-06-03%20at%201.19.36%20PM.png"class="dolphins"height="200"width="150">
-        <img src="http://cl.ly/image/0G3F353m452B/Image%202014-06-03%20at%201.19.30%20PM.png"class="dolphins"height="200"width="150">
-        <img src="http://cl.ly/image/0N0h3z393I3W/Image%202014-06-03%20at%201.19.25%20PM.png"class="dolphins"height="200"width="150">
+      <p id="quote">"THIS IS A QUOTE"</p>
+      <p id="ref">-Random Person</p>
+      <img src="http://i.imgur.com/KtRPfAf.png"height="10px">
     </div>
+      <br>
+      <br><br><br><br>
+      <center><p id="popular">MOST POPULAR DOLPHINS</p></center>
+    <div>
+        <span id="hector"><span class="bottom">Hector's dolphin</span></span>
+        <span id="black"><span class="bottom">Black dolphin</span></span>
+        <span id="commersons"><span class="bottom">Commerson's dolphin</span></span>
+        <span id="heaviside"><span class="bottom">Heaviside dolphin</span></span>
+    </div>
+    <span id="footer"><p id="copy">The Mason Whitaker Copyright 2014, All rights reserved.</p></span>
   </body>
 </html>

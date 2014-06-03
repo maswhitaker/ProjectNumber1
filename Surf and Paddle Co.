@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>
+      Surf & Paddle Co.
+    </title>
+  </head>
+  <style>
+    #heading{
+      color: white;
+    }
+  </style>
+  <body>
+      <h1 id="heading">Surf & Paddle Co.</h1>
+      <h2>DO YOU LOVE DOLPHINS?</h2>
+      <h3><span>Mason Whitaker</span> created this on June 3, 2014.</h3>
+      <p>Dolphins are the coolest animals in the entire ocean.
+         If you believe that whales are the coolest animals in the ocean,
+         well then let me be the first to tell you. You're Wrong. There are 40
+         species of dolphins in the entire ocean. And every single species is
+         full of awesome.
+      </p>
+  </body>
+</html>
