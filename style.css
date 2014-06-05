@@ -1,0 +1,225 @@
+
+    body {
+      margin: 0;
+      width: 100%;
+    }
+
+    * {
+      -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    }
+
+    #left-header{
+      float:left;
+      font-size:20px;
+      font-family: Oswald;
+      color:black;
+      margin: 0 0 0 40px;
+    }
+
+    #right-header{
+      float:right;
+      font-size: 20px;
+      font-family: Oswald;
+      color: black;
+      margin: 0 40px 0 0;
+    }
+
+    header{
+      height: 500px;
+      width: 100%;
+      margin:0 10px 0 10px;
+      background-image: url("images/beautiful.jpg");
+      background-size: cover;
+      margin: 0 0 0 0;
+    }
+
+    header h1 {
+      font-family: Oswald;
+      font-size: 80px;
+      color: white;
+      margin: 100px auto;
+      width: 1000px;
+    }
+
+    #popular{
+      font-family: Oswald;
+      font-size: 60px;
+      color: black;
+      margin: auto;
+    }
+
+    #hector {
+      display: inline-block;
+      height: 300px;
+      width: 25%;
+      margin: 0;
+      opacity: 0.5;
+      float: left;
+      background-size: cover;
+      background-image: url("images/dolphin-flying.jpg");
+    }
+    #footer-nav{
+      margin-top: -170px;
+      margin-left: 400px;
+    }
+
+    #section-heading{
+      color: blue;
+      text-transform: underline;
+      margin-top: 32px;
+      float: right;
+      margin-right: 130px;
+
+    }
+
+    nav{
+      position: relative;
+      top: 170px;
+      left: 450px;
+    }
+
+    aside nav li a{
+      color: gray;
+      display: inline-block;
+      text-decoration: none;
+    }
+
+    #black{
+      display: inline-block;
+      height: 300px;
+      width: 25%;
+      margin: 0;
+      opacity: 0.5;
+      float: left;
+      background-size: cover;
+      background-image: url("images/dolphin smiling.jpg");
+    }
+
+    #commersons{
+      display: inline-block;
+      height: 300px;
+      width: 25%;
+      margin: 0;
+      opacity: 0.5;
+      float: left;
+      background-size: cover;
+      background-image: url("images/dolphins.jpg");
+    }
+
+    article{
+      font-size: 15px;
+      font-family: Oswald;
+    }
+
+    #heaviside{
+      display: inline-block;
+      height: 300px;
+      width: 25%;
+      margin: 0;
+      opacity: 3.5;
+      background-size: cover;
+      float: left;
+      background-image: url("images/rainbow.jpg");
+    }
+
+    footer{
+      position: relative;
+      bottom: -300px;
+      width: 100%;
+      height: 100px;
+      background-color: #003366;
+      margin-bottom: 0;
+    }
+
+    #IYA{
+      color: black;
+      font-size: 10px;
+      font-family: Oswald;
+    }
+
+    #copy{
+      margin: -40px auto;
+      font-family: Times;
+      font-size: 15px;
+      color: grey;
+      text-align: center;
+    }
+
+    #section{
+      width: 35%;
+      float: left;
+      margin-left: 100px;
+    }
+
+    #quote{
+      font-size: 50px;
+      font-family: Arial;
+      color: darkblue;
+    }
+
+    .right{
+      float:right;
+      width: 25%;
+      margin-right: 125px;
+      padding-bottom: 10px;
+      margin-top: 0px;
+      font-family: Oswald;
+    }
+
+    #ref{
+      font-size: 10px;
+      font-family: Impact;
+      color: darkblue;
+    }
+
+    #advert{
+      margin-top: 112px;
+      margin-left: 400px;
+    }
+
+    #ad{
+      margin-left: 513px;
+    }
+
+    .img2{
+      border-radius: 50%;
+      margin-right: 200px;
+      margin-top:50px;
+      float:right;
+      border: solid black 3px;
+    }
+
+    .img3{
+      border-radius: 50%;
+      margin-right: 0 50px;
+      float: left;
+    }
+
+    .love{
+      font-size: 41px;
+      font-family: Oswald;
+    }
+
+    .loves{
+      font-size: 10px;
+      float: left;
+      margin-top: 19px;
+    }
+
+    .bottom{
+      color: black;
+      position: relative;
+      bottom: -200px;
+      font-family:Oswald;
+      font-size:30px;
+    }
+
+    .bottomm{
+      color: white;
+      position: relative;
+      bottom: -200px;
+      font-family:Oswald;
+      font-size:30px;
+    }
