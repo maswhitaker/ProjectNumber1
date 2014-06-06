@@ -1,6 +1,6 @@
 
     body {
-      margin: 0;
+      margin: 0 auto;
       width: 100%;
     }
 
@@ -9,8 +9,7 @@
         -moz-box-sizing: border-box;
             box-sizing: border-box;
     }
-
-    #left-header{
+    #left-header {
       float:left;
       font-size:20px;
       font-family: Oswald;
@@ -32,24 +31,25 @@
       margin:0 10px 0 10px;
       background-image: url("images/beautiful.jpg");
       background-size: cover;
-      margin: 0 0 0 0;
     }
 
     header h1 {
       font-family: Oswald;
       font-size: 80px;
       color: white;
+      text-align: center;
       margin: 100px auto;
       width: 1000px;
     }
-
     #popular{
       font-family: Oswald;
       font-size: 60px;
       color: black;
       margin: auto;
     }
-
+    #popular p{
+      text-align: center;
+    }
     #hector {
       display: inline-block;
       height: 300px;
@@ -71,21 +71,19 @@
       margin-top: 32px;
       float: right;
       margin-right: 130px;
-
     }
-
     nav{
       position: relative;
       top: 170px;
       left: 450px;
+      list-style: inline;
     }
 
     aside nav li a{
       color: gray;
-      display: inline-block;
+      display: inline;
       text-decoration: none;
     }
-
     #black{
       display: inline-block;
       height: 300px;
@@ -96,7 +94,6 @@
       background-size: cover;
       background-image: url("images/dolphin smiling.jpg");
     }
-
     #commersons{
       display: inline-block;
       height: 300px;
@@ -107,7 +104,6 @@
       background-size: cover;
       background-image: url("images/dolphins.jpg");
     }
-
     article{
       font-size: 15px;
       font-family: Oswald;
@@ -123,7 +119,6 @@
       float: left;
       background-image: url("images/rainbow.jpg");
     }
-
     footer{
       position: relative;
       bottom: -300px;
@@ -132,13 +127,11 @@
       background-color: #003366;
       margin-bottom: 0;
     }
-
     #IYA{
       color: black;
       font-size: 10px;
       font-family: Oswald;
     }
-
     #copy{
       margin: -40px auto;
       font-family: Times;
@@ -152,13 +145,11 @@
       float: left;
       margin-left: 100px;
     }
-
     #quote{
       font-size: 50px;
       font-family: Arial;
       color: darkblue;
     }
-
     .right{
       float:right;
       width: 25%;
@@ -167,22 +158,19 @@
       margin-top: 0px;
       font-family: Oswald;
     }
-
     #ref{
       font-size: 10px;
       font-family: Impact;
       color: darkblue;
     }
-
     #advert{
-      margin-top: 112px;
+      margin-top: 100px;
       margin-left: 400px;
-    }
 
+    }
     #ad{
       margin-left: 513px;
     }
-
     .img2{
       border-radius: 50%;
       margin-right: 200px;
@@ -190,24 +178,27 @@
       float:right;
       border: solid black 3px;
     }
-
+      #comment-bar{
+        width: 400px;
+        height: 20px;
+      }
     .img3{
       border-radius: 50%;
       margin-right: 0 50px;
       float: left;
     }
-
     .love{
       font-size: 41px;
       font-family: Oswald;
     }
-
     .loves{
       font-size: 10px;
       float: left;
       margin-top: 19px;
     }
-
+    #spann{
+      color: blue;
+    }
     .bottom{
       color: black;
       position: relative;
@@ -222,4 +213,173 @@
       bottom: -200px;
       font-family:Oswald;
       font-size:30px;
+    }
+
+@media screen and (max-width: 320px){
+      footer {
+        position: relative;
+        bottom: -1400px;
+        height: 300px;
+        margin: 0 0 0 0;
+      }
+      #left-header{
+        margin: 0 0 0 0px;
+        display: none;
+      }
+      #right-header{
+        margin: 0 0 0 0px;
+        text-align: center;
+        float: none;
+      }
+      header{
+          height: 150px;
+          padding-right: 10px;
+          padding-left: 10px;
+          margin-left: 0;
+          background image: url("images/beautiful.jpg");
+      }
+      header h1 {
+        color: white;
+        margin-top: 53px;
+        margin-left: 35px;
+        font-size: 30px;
+        text-align: center;
+        width: 80%;
+      }
+      #popular{
+        font-size: 30px;
+      }
+      #hector{
+        width: 280px;
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        opacity: 1;
+      }
+      #section-heading{
+        margin-right: 30px;
+        display: none;
+      }
+      nav{
+        display: inline-block;
+        position: relative;
+        top: 0;
+        left: 0;
+      }
+      #blah li{
+        margin: 0 5px;
+        float: left;
+      }
+      #black{
+        width: 280px;
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        opacity: 1;
+      }
+      #commersons{
+        width: 280px;
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        opacity: 1;
+      }
+      #heaviside{
+        width: 280px;
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        opacity: 1;
+      }
+      footer {
+        position: relative;
+        bottom: -1400px;
+        height: 300px;
+        margin: 0 0 0 0;
+      }
+      #IYA {
+        margin: 0 auto;
+        float: left;
+        color: black;
+        font-size: 10px;
+      }
+      #section{
+        margin-left: 10px;
+        width: 75%
+      }
+      #quote{
+        font-size: 30px;
+        font-family: Oswald;
+      }
+      .right {
+        float: left;
+        width: 1px;
+        height: 1px;
+        margin-right: 0;
+        display: none;
+      }
+      #ref{
+        text-align: center;
+      }
+      #advert{
+        margin-left: 20px;
+        margin-top: 300px;
+        margin-bottom: 20px;
+        width: 280px;
+      }
+      #ad {
+        text-align: left;
+        margin: 10 -90px;
+        text-decoration: underline;
+        color: grey;
+      }
+      .img2{
+        margin-right: 130px;
+      }
+      #comment-bar{
+        width: 200px;
+      }
+      .img3{
+        display: none;
+      }
+      .love{
+        font-size: 30px;
+        width: 75%;
+        margin: 0 0 0 0px;
+      }
+      br {
+        display: none;
+
+      }
+      .loves {
+        float: none;
+        color: grey;
+        text-transform: underline;
+      }
+      #spann{
+        color: grey;
+      }
+      #footer-nav{
+        float: left;
+        list-style: none;
+        display: inline-block;
+        margin-left: 50px;
+        margin-top: -1200px;
+        color: white;
+        text-decoration: none;
+      }
+      #copy{
+        color: white;
+      }
+      #footer-nav li{
+        float: left;
+        text-align: center;
+        width: 32%;
+        text-decoration: none;
+        color: white;
+      }
     }
