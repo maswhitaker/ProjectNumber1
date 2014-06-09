@@ -30,7 +30,7 @@ header{
 height: 500px;
 width: 100%;
 margin:0 10px 0 10px;
-background-image: url("images/beautiful.jpg");
+background-image: url("http://cl.ly/image/160O161i1h40/Image%202014-06-07%20at%206.35.38%20PM.png");
 background-size: cover;
 }
 
@@ -60,7 +60,6 @@ display: inline-block;
 height: 300px;
 width: 25%;
 margin: 0;
-opacity: 0.5;
 float: left;
 background-size: cover;
 background-image: url("images/dolphin-flying.jpg");
@@ -72,13 +71,23 @@ margin-left: 400px;
 }
 
 #section-heading{
-color: blue;
+color: darkblue;
+font-family: Oswald;
 text-transform: underline;
 margin-top: 32px;
 float: right;
-margin-right: 130px;
+margin-right: 190px;
 }
-
+#comment-bar-mobile{
+  display: none;
+}
+#identity{
+  float: right;
+  position: relative;
+  top: 133px;
+  right: -120px;
+  color: blue;
+}
 nav{
 position: relative;
 top: 170px;
@@ -96,7 +105,6 @@ display: inline-block;
 height: 300px;
 width: 25%;
 margin: 0;
-opacity: 0.5;
 float: left;
 background-size: cover;
 background-image: url("images/dolphin smiling.jpg");
@@ -107,7 +115,6 @@ display: inline-block;
 height: 300px;
 width: 25%;
 margin: 0;
-opacity: 0.5;
 float: left;
 background-size: cover;
 background-image: url("images/dolphins.jpg");
@@ -123,7 +130,6 @@ display: inline-block;
 height: 300px;
 width: 25%;
 margin: 0;
-opacity: 3.5;
 background-size: cover;
 float: left;
 background-image: url("images/rainbow.jpg");
@@ -159,8 +165,8 @@ margin-left: 100px;
 }
 
 #quote{
-font-size: 50px;
-font-family: Arial;
+font-size: 40px;
+font-family: Oswald;
 color: darkblue;
 }
 
@@ -181,7 +187,7 @@ color: darkblue;
 
 #advert{
 margin-top: 100px;
-margin-left: 400px;
+margin-left: 300px;
 }
 
 #ad{
@@ -350,8 +356,10 @@ footer {
 }
 
 #section{
-  margin-left: 10px;
-  width: 75%
+  margin-right: 100px;
+  width: 75%;
+  float: left;
+  margin-left: 0;
 }
 
 #quote{
@@ -373,9 +381,13 @@ footer {
 
 #advert{
   width: 280px;
-  margin-top: 100px;
-
-  margin-left: 20px;
+  position: relative;
+  right: 400px;
+}
+#identity{
+  margin-top: -50px;
+  margin-left: 0;
+  margin-right: 200px;
 }
 
 #ad {
@@ -391,6 +403,7 @@ footer {
 
 #comment-bar{
   width: 200px;
+  display: none;
 }
 
 .img3{
@@ -430,6 +443,7 @@ br {
 
 #copy{
   color: white;
+
 }
 
 #footer-nav li{
@@ -438,6 +452,12 @@ br {
   width: 32%;
   text-decoration: none;
   color: white;
+}
+#comment-bar-mobile{
+  display: inline;
+  width: 75%;
+  margin-left:0;
+  margin-top: 10px;
 }
 
 }
