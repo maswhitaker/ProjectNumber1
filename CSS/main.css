@@ -1,0 +1,317 @@
+/*Variables*/
+/*Classes*/
+.love, #section h2 {
+  font-size: 41px;
+  font-family: Oswald; }
+  @media screen and (max-width: 320px) {
+    .love, #section h2 {
+      font-size: 30px;
+      width: 75%;
+      margin: 0 0 0 0px; } }
+
+.loves, #section h3 {
+  font-size: 10px;
+  float: left;
+  margin-top: 19px; }
+  @media screen and (max-width: 320px) {
+    .loves, #section h3 {
+      float: none;
+      color: grey;
+      text-transform: underline; } }
+
+.bottom, section span span {
+  color: black;
+  position: relative;
+  bottom: -200px;
+  font-family: Oswald;
+  font-size: 30px; }
+
+.bottomm {
+  color: white;
+  position: relative;
+  bottom: -200px;
+  font-family: Oswald;
+  font-size: 30px; }
+
+.img3, #section #image1 {
+  border-radius: 50%;
+  margin-right: 0 50px;
+  float: left; }
+  @media screen and (max-width: 320px) {
+    .img3, #section #image1 {
+      display: none; } }
+
+.img2, aside #image2 {
+  border-radius: 50%;
+  margin-right: 200px;
+  margin-top: 50px;
+  float: right;
+  border: solid black 3px; }
+  @media screen and (max-width: 320px) {
+    .img2, aside #image2 {
+      margin-right: 130px; } }
+
+.right, aside #right-sidebar-text {
+  float: right;
+  width: 25%;
+  margin-right: 125px;
+  padding-bottom: 10px;
+  margin-top: 0px;
+  font-family: Oswald; }
+  @media screen and (max-width: 320px) {
+    .right, aside #right-sidebar-text {
+      display: none; } }
+
+.dolphinpictures, section span {
+  display: inline-block;
+  height: 300px;
+  width: 25%;
+  margin: 0;
+  background-size: cover;
+  float: left; }
+
+/*CSS PROPERTIES*/
+body {
+  margin: 0 auto;
+  width: 100%; }
+
+header {
+  height: 500px;
+  width: 100%;
+  position: relative;
+  top: -55px;
+  background-image: url("http://cl.ly/image/160O161i1h40/Image%202014-06-07%20at%206.35.38%20PM.png");
+  background-size: cover; }
+  @media screen and (max-width: 320px) {
+    header {
+      height: 300px;
+      padding-right: 10px;
+      padding-left: 10px;
+      margin-left: 0; } }
+  header p:first-child {
+    float: left;
+    font-size: 20px;
+    font-family: Oswald;
+    color: black;
+    margin: 0 0 0 40px; }
+    @media screen and (max-width: 320px) {
+      header p:first-child {
+        margin: 0 0 0 0px;
+        display: none; } }
+  header p:nth-child(2) {
+    float: right;
+    font-size: 20px;
+    font-family: Oswald;
+    color: black;
+    margin: 0 40px 0 0; }
+    @media screen and (max-width: 320px) {
+      header p:nth-child(2) {
+        margin: 0 0 0 0px;
+        text-align: center;
+        float: none; } }
+  header h1 {
+    font-family: Oswald;
+    font-size: 80px;
+    color: white;
+    text-align: center; }
+    @media screen and (max-width: 320px) {
+      header h1 {
+        color: white;
+        margin-top: 100px;
+        margin-left: 35px;
+        font-size: 30px;
+        text-align: center;
+        width: 80%; } }
+  header #IYA {
+    font-size: 20px;
+    color: black;
+    font-family: Oswald;
+    margin-left: 450px; }
+    @media screen and (max-width: 320px) {
+      header #IYA {
+        margin: 0 50px;
+        float: left;
+        color: white;
+        font-size: 10px; } }
+
+#section {
+  width: 35%;
+  float: left;
+  margin-left: 100px; }
+  @media screen and (max-width: 320px) {
+    #section {
+      margin-right: 100px;
+      width: 75%;
+      float: left;
+      margin-left: 0; } }
+  #section h3 span {
+    color: blue; }
+  #section article {
+    font-size: 15px;
+    font-family: Oswald; }
+  #section #quote {
+    font-size: 40px;
+    font-family: Oswald;
+    color: darkblue;
+    position: relative;
+    top: 0; }
+  #section #ref {
+    font-size: 10px;
+    font-family: Impact;
+    color: darkblue;
+    text-align: center;
+    position: relative;
+    top: 0; }
+  #section #comment-bar-mobile {
+    display: none; }
+    @media screen and (max-width: 320px) {
+      #section #comment-bar-mobile {
+        display: inline;
+        width: 75%;
+        margin-left: 0;
+        margin-top: 10px; } }
+  #section #comment-bar {
+    width: 400px;
+    height: 20px; }
+    @media screen and (max-width: 320px) {
+      #section #comment-bar {
+        width: 200px;
+        display: none; } }
+
+aside #identity {
+  float: right;
+  position: relative;
+  top: 150px;
+  right: -120px;
+  color: blue; }
+  @media screen and (max-width: 320px) {
+    aside #identity {
+      margin-top: -50px;
+      margin-left: 0;
+      margin-right: 200px; } }
+aside nav {
+  position: relative;
+  top: 170px;
+  left: 450px;
+  list-style: inline; }
+  @media screen and (max-width: 320px) {
+    aside nav {
+      display: inline-block;
+      position: relative;
+      top: 0;
+      left: 0; } }
+  aside nav ul {
+    position: relative;
+    right: 80px;
+    top: 30px; }
+    aside nav ul li {
+      display: inline; }
+      @media screen and (max-width: 320px) {
+        aside nav ul li {
+          margin: 0 5px;
+          float: left;
+          list-style: none; } }
+      aside nav ul li a {
+        text-decoration: none;
+        color: gray; }
+aside #advert {
+  margin-top: 100px;
+  margin-left: 300px; }
+  @media screen and (max-width: 320px) {
+    aside #advert {
+      width: 320px;
+      position: relative;
+      right: 300px; } }
+aside #ad {
+  position: relative;
+  top: 30px;
+  right: 100px; }
+  @media screen and (max-width: 320px) {
+    aside #ad {
+      text-align: left;
+      text-decoration: underline;
+      color: grey;
+      margin-left: 200px; } }
+aside h2 {
+  color: darkblue;
+  font-family: Oswald;
+  text-transform: underline;
+  margin-top: 32px;
+  float: right;
+  margin-right: 190px; }
+  @media screen and (max-width: 320px) {
+    aside h2 {
+      display: none; } }
+
+div p {
+  position: relative;
+  top: 100px;
+  font-size: 100px;
+  text-align: center;
+  font-family: Oswald; }
+  @media screen and (max-width: 320px) {
+    div p {
+      font-size: 30px;
+      position: relative;
+      top: 0; } }
+
+section #hector {
+  background-image: url("../images/rainbow.jpg"); }
+  @media screen and (max-width: 320px) {
+    section #hector {
+      width: 280px;
+      margin-top: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      margin-left: 20px; } }
+section #black {
+  background-image: url("../images/dolphin smiling.jpg"); }
+  @media screen and (max-width: 320px) {
+    section #black {
+      width: 280px;
+      margin-top: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      margin-left: 20px; } }
+section #commersons {
+  background-image: url("../images/dolphins.jpg"); }
+  @media screen and (max-width: 320px) {
+    section #commersons {
+      width: 280px;
+      margin-top: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      margin-left: 20px; } }
+section #heaviside {
+  background-image: url("../images/dolphin-flying.jpg"); }
+  @media screen and (max-width: 320px) {
+    section #heaviside {
+      width: 280px;
+      margin-top: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      margin-left: 20px; } }
+
+footer p {
+  margin: 0 auto;
+  font-family: Times;
+  font-size: 15px;
+  color: grey;
+  text-align: center; }
+footer nav {
+  float: right;
+  list-style: none;
+  text-decoration: none; }
+  footer nav li {
+    display: inline-block;
+    margin-right: 20px; }
+    @media screen and (max-width: 320px) {
+      footer nav li {
+        float: left;
+        text-align: center;
+        width: 32%;
+        text-decoration: none;
+        color: white; } }
+    footer nav li a {
+      color: black;
+      text-decoration: none; }

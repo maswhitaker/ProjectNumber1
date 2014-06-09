@@ -1,0 +1,374 @@
+/*Variables*/
+$basefont: Oswald;
+
+/*Classes*/
+.love{
+font-size: 41px;
+font-family: $basefont;
+@media screen and (max-width: 320px){
+  font-size: 30px;
+  width: 75%;
+  margin: 0 0 0 0px;
+}
+}
+.loves{
+font-size: 10px;
+float: left;
+margin-top: 19px;
+@media screen and (max-width: 320px){
+  float: none;
+  color: grey;
+  text-transform: underline;
+}
+}
+.bottom{
+color: black;
+position: relative;
+bottom: -200px;
+font-family:$basefont;
+font-size:30px;
+}
+.bottomm{
+color: white;
+position: relative;
+bottom: -200px;
+font-family:$basefont;
+font-size:30px;
+}
+.img3{
+border-radius: 50%;
+margin-right: 0 50px;
+float: left;
+@media screen and (max-width: 320px){
+  display: none;
+}
+}
+.img2{
+border-radius: 50%;
+margin-right: 200px;
+margin-top:50px;
+float:right;
+border: solid black 3px;
+@media screen and (max-width: 320px){
+  margin-right: 130px;
+}
+}
+.right{
+float:right;
+width: 25%;
+margin-right: 125px;
+padding-bottom: 10px;
+margin-top: 0px;
+font-family: $basefont;
+@media screen and (max-width: 320px){
+  display: none;
+}
+}
+.dolphinpictures{
+display: inline-block;
+height: 300px;
+width: 25%;
+margin: 0;
+background-size: cover;
+float: left;
+}
+
+/*CSS PROPERTIES*/
+body{
+  margin: 0 auto;
+  width: 100%;
+}
+header{
+height: 500px;
+width: 100%;
+position: relative;
+  top: -55px;
+background-image: url("http://cl.ly/image/160O161i1h40/Image%202014-06-07%20at%206.35.38%20PM.png");
+background-size: cover;
+@media screen and (max-width: 320px){
+  height: 300px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-left: 0;
+}
+  p:first-child{
+    float:left;
+    font-size:20px;
+    font-family: $basefont;
+    color:black;
+    margin: 0 0 0 40px;
+    @media screen and (max-width: 320px){
+      margin: 0 0 0 0px;
+      display: none;
+    }
+  }
+  p:nth-child(2){
+    float:right;
+    font-size: 20px;
+    font-family: $basefont;
+    color: black;
+    margin: 0 40px 0 0;
+    @media screen and (max-width: 320px){
+      margin: 0 0 0 0px;
+      text-align: center;
+      float: none;
+    }
+  }
+  h1{
+    font-family: $basefont;
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    @media screen and (max-width: 320px){
+      color: white;
+      margin-top: 100px;
+      margin-left: 35px;
+      font-size: 30px;
+      text-align: center;
+      width: 80%;
+    }
+  }
+  #IYA{
+    font-size: 20px;
+    color: black;
+    font-family: $basefont;
+    margin-left: 450px;
+    @media screen and (max-width: 320px){
+      margin: 0 50px;
+      float: left;
+      color: white;
+      font-size: 10px;
+    }
+  }
+}
+#section{
+width: 35%;
+float: left;
+margin-left: 100px;
+@media screen and (max-width: 320px){
+  margin-right: 100px;
+  width: 75%;
+  float: left;
+  margin-left: 0;
+}
+  h2{
+    @extend .love;
+  }
+  h3{
+    @extend .loves;
+    span{
+      color: blue;
+    }
+  }
+  article{
+    font-size: 15px;
+    font-family: $basefont;
+  }
+  #quote{
+    font-size: 40px;
+    font-family: $basefont;
+    color: darkblue;
+    position: relative;
+      top: 0;
+  }
+  #ref{
+    font-size: 10px;
+    font-family: Impact;
+    color: darkblue;
+    text-align: center;
+    position: relative;
+      top: 0;
+  }
+  #image1{
+    @extend .img3
+  }
+  #comment-bar-mobile{
+    display: none;
+    @media screen and (max-width: 320px){
+      display: inline;
+      width: 75%;
+      margin-left:0;
+      margin-top: 10px;
+    }
+  }
+  #comment-bar{
+    width: 400px;
+    height: 20px;
+    @media screen and (max-width: 320px){
+      width: 200px;
+      display: none;
+    }
+  }
+}
+aside{
+  #image2{
+    @extend .img2
+  }
+  #identity{
+    float: right;
+    position: relative;
+    top: 150px;
+    right: -120px;
+    color: blue;
+    @media screen and (max-width: 320px){
+        margin-top: -50px;
+        margin-left: 0;
+        margin-right: 200px;
+    }
+  }
+  nav{
+    position: relative;
+    top: 170px;
+    left: 450px;
+    list-style: inline;
+      @media screen and (max-width: 320px){
+        display: inline-block;
+        position: relative;
+          top: 0;
+          left: 0;
+      }
+    ul{
+      position: relative;
+        right: 80px;
+        top: 30px;
+      li{
+        display: inline;
+        @media screen and (max-width: 320px){
+          margin: 0 5px;
+          float: left;
+          list-style: none;
+        }
+        a{
+          text-decoration: none;
+          color: gray;
+        }
+      }
+    }
+  }
+  #advert{
+    margin-top: 100px;
+    margin-left: 300px;
+    @media screen and (max-width: 320px){
+      width: 320px;
+      position: relative;
+        right: 300px;
+    }
+  }
+  #ad{
+    position: relative;
+      top: 30px;
+      right: 100px;
+    @media screen and (max-width: 320px){
+      text-align: left;
+      text-decoration: underline;
+      color: grey;
+      margin-left: 200px;
+    }
+  }
+  h2{
+    color: darkblue;
+    font-family: $basefont;
+    text-transform: underline;
+    margin-top: 32px;
+    float: right;
+    margin-right: 190px;
+    @media screen and (max-width: 320px){
+      display: none;
+    }
+  }
+  #right-sidebar-text{
+    @extend .right;
+  }
+}
+
+div{
+  p{
+    position: relative;
+      top: 100px;
+    font-size: 100px;
+    text-align: center;
+    font-family: $basefont;
+    @media screen and (max-width: 320px){
+      font-size: 30px;
+      position: relative;
+        top: 0;
+    }
+  }
+}
+section{
+  span{
+    @extend .dolphinpictures;
+    span{
+      @extend .bottom;
+    }
+  }
+  #hector{
+    background-image: url("../images/rainbow.jpg");
+    @media screen and (max-width: 320px){
+      width: 280px;
+      margin-top: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      margin-left: 20px;
+    }
+  }
+  #black{
+    background-image: url("../images/dolphin smiling.jpg");
+    @media screen and (max-width: 320px){
+      width: 280px;
+      margin-top: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      margin-left: 20px;
+    }
+  }
+  #commersons{
+    background-image: url("../images/dolphins.jpg");
+    @media screen and (max-width: 320px){
+      width: 280px;
+      margin-top: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      margin-left: 20px;
+    }
+  }
+  #heaviside{
+    background-image: url("../images/dolphin-flying.jpg");
+    @media screen and (max-width: 320px){
+      width: 280px;
+      margin-top: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      margin-left: 20px;
+    }
+  }
+}
+footer{
+  p{
+    margin: 0 auto;
+    font-family: Times;
+    font-size: 15px;
+    color: grey;
+    text-align: center;
+  }
+  nav{
+      float: right;
+      list-style: none;
+      text-decoration: none;
+    li{
+      display: inline-block;
+      margin-right: 20px;
+      @media screen and (max-width: 320px){
+        float: left;
+        text-align: center;
+        width: 32%;
+        text-decoration: none;
+        color: white;
+      }
+      a{
+        color: black;
+        text-decoration: none;
+      }
+    }
+  }
+}
