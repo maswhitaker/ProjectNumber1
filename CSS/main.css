@@ -246,8 +246,8 @@ aside h2 {
   font-family: Oswald;
   text-transform: underline;
   margin-top: 32px;
-  float: right;
-  margin-right: 190px; }
+  margin-right: 190px;
+  float: right; }
   @media screen and (max-width: 320px) {
     aside h2 {
       display: none; } }

@@ -5,6 +5,11 @@ $basefont: Oswald;
 $basesize: 40px;
 
 /*Classes*/
+.article{
+  font-family: $basefont;
+  font-size: 15px;
+  @include position(relative, 100 null null null);
+}
 .love{
   font-size: 41px;
   font-family: $basefont;
@@ -14,6 +19,7 @@ $basesize: 40px;
     @include margin(0px 0px 0px 0px);
   }
 }
+
 .loves{
   font-size: 10px;
   float: left;
@@ -157,10 +163,6 @@ float: left;
       color: blue;
     }
   }
-  article{
-    font-size: 15px;
-    font-family: $basefont;
-  }
   #quote{
     font-size: 40px;
     font-family: $basefont;
@@ -249,9 +251,8 @@ aside{
     color: darkblue;
     font-family: $basefont;
     text-transform: underline;
-    margin-top: 32px;
+    @include margin(32px 190px null null);
     float: right;
-    margin-right: 190px;
     @media screen and (max-width: 320px){
       display: none;
     }
