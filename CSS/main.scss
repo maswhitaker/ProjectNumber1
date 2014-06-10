@@ -1,102 +1,100 @@
+@import "bourbon/bourbon.scss";
+
 /*Variables*/
 $basefont: Oswald;
+$basesize: 40px;
 
 /*Classes*/
 .love{
-font-size: 41px;
-font-family: $basefont;
-@media screen and (max-width: 320px){
-  font-size: 30px;
-  width: 75%;
-  margin: 0 0 0 0px;
-}
+  font-size: 41px;
+  font-family: $basefont;
+  @media screen and (max-width: 320px){
+    font-size: 30px;
+    width: 75%;
+    @include margin(0px 0px 0px 0px);
+  }
 }
 .loves{
-font-size: 10px;
-float: left;
-margin-top: 19px;
-@media screen and (max-width: 320px){
-  float: none;
-  color: grey;
-  text-transform: underline;
-}
+  font-size: 10px;
+  float: left;
+  margin-top: 19px;
+  @media screen and (max-width: 320px){
+    float: none;
+    color: grey;
+    text-transform: underline;
+  }
 }
 .bottom{
-color: black;
-position: relative;
-bottom: -200px;
-font-family:$basefont;
-font-size:30px;
+  color: black;
+  @include position(relative, null null -200px null);
+  font-family:$basefont;
+  font-size:30px;
 }
 .bottomm{
-color: white;
-position: relative;
-bottom: -200px;
-font-family:$basefont;
-font-size:30px;
+  color: white;
+  @include position(relative, null null -200px null);
+  font-family:$basefont;
+  font-size:30px;
 }
 .img3{
-border-radius: 50%;
-margin-right: 0 50px;
-float: left;
-@media screen and (max-width: 320px){
-  display: none;
-}
+  border-radius: 50%;
+  margin-right: 0 50px;
+  float: left;
+  @media screen and (max-width: 320px){
+    display: none;
+  }
 }
 .img2{
-border-radius: 50%;
-margin-right: 200px;
-margin-top:50px;
-float:right;
-border: solid black 3px;
-@media screen and (max-width: 320px){
-  margin-right: 130px;
-}
+  border-radius: 50%;
+  @include margin(50px 200px null null);
+  float:right;
+  border: solid black 3px;
+  @media screen and (max-width: 320px){
+    margin-right: 130px;
+  }
 }
 .right{
-float:right;
-width: 25%;
-margin-right: 125px;
-padding-bottom: 10px;
-margin-top: 0px;
-font-family: $basefont;
-@media screen and (max-width: 320px){
-  display: none;
-}
+  float:right;
+  width: 25%;
+  @include margin(0px 125px null null);
+  padding-bottom: 10px;
+  font-family: $basefont;
+  @media screen and (max-width: 320px){
+    display: none;
+  }
 }
 .dolphinpictures{
-display: inline-block;
-height: 300px;
-width: 25%;
-margin: 0;
-background-size: cover;
-float: left;
+  display: inline-block;
+  height: 300px;
+  width: 25%;
+  margin: 0;
+  background-size: cover;
+  float: left;
 }
 
 /*CSS PROPERTIES*/
 body{
-  margin: 0 auto;
+  @include margin(0 auto null null);
   width: 100%;
 }
 header{
 height: 500px;
 width: 100%;
-position: relative;
-  top: -55px;
+@include position(relative, -55px 0 0 0);
 background-image: url("http://cl.ly/image/160O161i1h40/Image%202014-06-07%20at%206.35.38%20PM.png");
 background-size: cover;
 @media screen and (max-width: 320px){
   height: 300px;
   padding-right: 10px;
   padding-left: 10px;
-  margin-left: 0;
+  @include margin(null null null 0px);
 }
   p:first-child{
     float:left;
     font-size:20px;
     font-family: $basefont;
     color:black;
-    margin: 0 0 0 40px;
+    @include margin(0 0 0 40px);
     @media screen and (max-width: 320px){
       margin: 0 0 0 0px;
       display: none;
@@ -107,9 +105,9 @@ background-size: cover;
     font-size: 20px;
     font-family: $basefont;
     color: black;
-    margin: 0 40px 0 0;
+    @include margin(0 40px 0 0);
     @media screen and (max-width: 320px){
-      margin: 0 0 0 0px;
+      @include margin(0px 0px 0px 0px);
       text-align: center;
       float: none;
     }
@@ -121,20 +119,20 @@ background-size: cover;
     text-align: center;
     @media screen and (max-width: 320px){
       color: white;
-      margin-top: 100px;
-      margin-left: 35px;
+      @include margin(100px null null 35px);
       font-size: 30px;
       text-align: center;
       width: 80%;
     }
+
   }
   #IYA{
     font-size: 20px;
     color: black;
     font-family: $basefont;
-    margin-left: 450px;
+    @include margin(null null null 450px);
     @media screen and (max-width: 320px){
-      margin: 0 50px;
+      @include margin(0 50px null null);
       float: left;
       color: white;
       font-size: 10px;
@@ -144,12 +142,11 @@ background-size: cover;
 #section{
 width: 35%;
 float: left;
-margin-left: 100px;
+@include margin(null null null 100px);
 @media screen and (max-width: 320px){
-  margin-right: 100px;
+  @include margin(null 100px null 0);
   width: 75%;
   float: left;
-  margin-left: 0;
 }
   h2{
     @extend .love;
@@ -168,16 +165,14 @@ margin-left: 100px;
     font-size: 40px;
     font-family: $basefont;
     color: darkblue;
-    position: relative;
-      top: 0;
+    @include position(relative, 0px null null null);
   }
   #ref{
     font-size: 10px;
     font-family: Impact;
     color: darkblue;
     text-align: center;
-    position: relative;
-      top: 0;
+    @include position(relative, 0);
   }
   #image1{
     @extend .img3
@@ -187,8 +182,7 @@ margin-left: 100px;
     @media screen and (max-width: 320px){
       display: inline;
       width: 75%;
-      margin-left:0;
-      margin-top: 10px;
+      @include margin(10px null null 0);
     }
   }
   #comment-bar{
@@ -206,35 +200,25 @@ aside{
   }
   #identity{
     float: right;
-    position: relative;
-    top: 150px;
-    right: -120px;
+    @include position(relative, 150px -120px null null);
     color: blue;
     @media screen and (max-width: 320px){
-        margin-top: -50px;
-        margin-left: 0;
-        margin-right: 200px;
+        @include margin(-50px 200px null 0);
     }
   }
   nav{
-    position: relative;
-    top: 170px;
-    left: 450px;
+    @include position(relative, 170px null null 450px);
     list-style: inline;
       @media screen and (max-width: 320px){
         display: inline-block;
-        position: relative;
-          top: 0;
-          left: 0;
+        @include position(relative, 0 null null 0);
       }
     ul{
-      position: relative;
-        right: 80px;
-        top: 30px;
+      @include position(relative, 30px 80px null null);
       li{
         display: inline;
         @media screen and (max-width: 320px){
-          margin: 0 5px;
+          @include margin(0px 5px null null);
           float: left;
           list-style: none;
         }
@@ -246,18 +230,14 @@ aside{
     }
   }
   #advert{
-    margin-top: 100px;
-    margin-left: 300px;
+    @include margin(100px null null 300px);
     @media screen and (max-width: 320px){
       width: 320px;
-      position: relative;
-        right: 300px;
+      @include position(relative, null 300px null null);
     }
   }
   #ad{
-    position: relative;
-      top: 30px;
-      right: 100px;
+    @include position(relative, 30px 100px null null);
     @media screen and (max-width: 320px){
       text-align: left;
       text-decoration: underline;
@@ -283,15 +263,13 @@ aside{
 
 div{
   p{
-    position: relative;
-      top: 100px;
+    @include position(relative, 100px null null null);
     font-size: 100px;
     text-align: center;
     font-family: $basefont;
     @media screen and (max-width: 320px){
       font-size: 30px;
-      position: relative;
-        top: 0;
+      @include position(relative, 0 null null null);
     }
   }
 }
@@ -306,46 +284,34 @@ section{
     background-image: url("../images/rainbow.jpg");
     @media screen and (max-width: 320px){
       width: 280px;
-      margin-top: 20px;
-      margin-right: 20px;
-      margin-bottom: 20px;
-      margin-left: 20px;
+      @include margin(20px 20px 20px 20px);
     }
   }
   #black{
     background-image: url("../images/dolphin smiling.jpg");
     @media screen and (max-width: 320px){
       width: 280px;
-      margin-top: 20px;
-      margin-right: 20px;
-      margin-bottom: 20px;
-      margin-left: 20px;
+      @include margin(20px 20px 20px 20px);
     }
   }
   #commersons{
     background-image: url("../images/dolphins.jpg");
     @media screen and (max-width: 320px){
       width: 280px;
-      margin-top: 20px;
-      margin-right: 20px;
-      margin-bottom: 20px;
-      margin-left: 20px;
+      @include margin(20px 20px 20px 20px);
     }
   }
   #heaviside{
     background-image: url("../images/dolphin-flying.jpg");
     @media screen and (max-width: 320px){
       width: 280px;
-      margin-top: 20px;
-      margin-right: 20px;
-      margin-bottom: 20px;
-      margin-left: 20px;
+      @include margin(20px 20px 20px 20px);
     }
   }
 }
 footer{
   p{
-    margin: 0 auto;
+    @include margin(0 auto null null);
     font-family: Times;
     font-size: 15px;
     color: grey;
@@ -357,7 +323,7 @@ footer{
       text-decoration: none;
     li{
       display: inline-block;
-      margin-right: 20px;
+      @include margin(null 20px null null);
       @media screen and (max-width: 320px){
         float: left;
         text-align: center;
